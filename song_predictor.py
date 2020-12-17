@@ -7,7 +7,7 @@ import urllib.request
 import os.path
 from os import path
 
-os.chdir(r'C:\Users\MOHAMMED MUZZAMMIL\Desktop\job1')
+#os.chdir(r'C:\Users\MOHAMMED MUZZAMMIL\Desktop\job1')
 Pkl_Filename = "Pickle_RL_Model.pkl"
 
 
