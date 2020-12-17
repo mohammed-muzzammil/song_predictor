@@ -68,6 +68,8 @@ if st.sidebar.button('Predict'):
     
     input_s=Pickled_LR_Model.predict([1,valence,acousticness,danceability,energy,explicit,liveness,loudness,release_date,speechiness]) 
     
+    st.write(input_s)
+    
     if input_s>0.2:
         
         st.info('this song could definitely be popular!')
