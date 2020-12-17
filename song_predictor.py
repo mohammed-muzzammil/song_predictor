@@ -14,7 +14,7 @@ Pkl_Filename = "Pickle_RL_Model.pkl"
 
     
     
-st.markdown("<h1 style='text-align: center; color: Light gray;'>How likely is your song to be a popular?</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: Light gray;'>How likely is your song to be popular?</h1>", unsafe_allow_html=True)
 
 
 st.info('This is a prediction model based on the database of 2,00,000 songs move the sliders on the left to understand whether your song has what it takes to be popular ')
