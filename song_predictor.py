@@ -7,7 +7,7 @@ import urllib.request
 import os.path
 from os import path
 
-#os.chdir(r'C:\Users\MOHAMMED MUZZAMMIL\Desktop\job1')
+os.chdir(r'C:\Users\MOHAMMED MUZZAMMIL\Desktop\job1')
 Pkl_Filename = "Pickle_RL_Model.pkl"
 
 
@@ -58,6 +58,10 @@ if st.sidebar.button('Predict'):
     else:
         
         urllib.request.urlretrieve("https://drive.google.com/u/0/uc?id=18wuXoOrUgVebzuL6NIQXZJJnf7mY4NGN&export=download", "Pickle_RL_Model.pkl")
+        
+        with open(Pkl_Filename, 'rb') as file: 
+            
+            Pickled_LR_Model = pickle.load(file)
    
     
     
